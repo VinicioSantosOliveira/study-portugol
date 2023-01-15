@@ -30,7 +30,7 @@ programa{
 			aluno = aluno + 1
 		}
 		escreva ("\n----------------")
-		escreva ("\nO aluno "+ alunoMaiorNota +" tirou "+ maiorNota +" que foi a maior nota.")
+		escreva ("\nO(A) aluno(a) "+ alunoMaiorNota +" tirou "+ maiorNota +" que foi a maior nota.")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -38,7 +38,7 @@ programa{
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 752; 
+ * @POSICAO-CURSOR = 683; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

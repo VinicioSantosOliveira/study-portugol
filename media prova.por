@@ -37,8 +37,7 @@ programa
 			se (media>=8 e media<9)
 				escreva ("\nNota B")
 			se (media>=9 e media<=10)
-				escreva ("\nNota A")
-		
+				escreva ("\nNota A")		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -46,7 +45,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 868; 
+ * @POSICAO-CURSOR = 976; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
