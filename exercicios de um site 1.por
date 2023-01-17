@@ -1,4 +1,5 @@
 programa{
+	//https://pt.slideshare.net/GabrielFaustino/lista-de-exerccios-em-portugol link do site
 	//soma de dois numeros
 	funcao inicio(){
 	
@@ -19,7 +20,7 @@ programa{
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 33; 
+ * @POSICAO-CURSOR = 98; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
