@@ -1,11 +1,10 @@
 programa{
-	//total de homens com mais de 18 e possui cabelos castanhos
-	//total de mulheres entre 25 e 30 que possui cabelos loiros
+	//total de homens com mais de 18 anos e com cabelos castanho
+	//total de mulheres entre 25 e 30 anos com cabelo loiro
 	funcao inicio(){
 	
-	inteiro cabelo, idade
-	cadeia s = "", n = "", pergunta
-	caracter sexo = 'M'
+	inteiro cabelo, idade, totalHomens = 0, totalMulheres = 0
+	cadeia s = "", n = "", pergunta, sexo
 
 	faca{
 		escreva ("\n----------------------")
@@ -25,10 +24,24 @@ programa{
 		escreva ("\nQuer continuar? [S/N]")
 		leia (pergunta)
 
-		se (sexo != f)
+		se (sexo == "m"){
+			se (idade >= 18){
+				se (cabelo == 2){
+					totalHomens++
+				}
+			}	
+		}senao{
+			se (idade >= 25 e idade <= 30){
+				se (cabelo == 3){
+					totalMulheres++
+				}
+			}
+		}
 				
 	}enquanto (pergunta != "n")
-	
+
+	escreva ("\nTeve um total de "+ totalhomens +" com mais de 18 anos e com cabelos castanho")
+	escreva ("\nTeve um total de "+ totalMulheres +" mulheres entre 25 e 30 anos com cabelo loiro")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -36,7 +49,7 @@ programa{
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 131; 
+ * @POSICAO-CURSOR = 1122; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
