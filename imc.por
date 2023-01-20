@@ -38,8 +38,10 @@ programa
 			(imc>=35 e imc<40)
 			escreva ("\nvoce esta com obesidade severa")
 		se
-			(imc>=40)
+			(imc>=40 e imc<=50)
 			escreva ("\nvoce esta com obesidade mórbida")
+		senao
+			escreva ("\nProcure um medico")	
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -47,7 +49,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 505; 
+ * @POSICAO-CURSOR = 937; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
