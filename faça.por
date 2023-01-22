@@ -24,8 +24,6 @@ programa{
 		leia (cabelo)
 		escreva ("\nQuer continuar? [S/N]")
 		leia (pergunta)
-
-		se (sexo != f)
 				
 	}enquanto (pergunta != "n")
 	
@@ -36,7 +34,7 @@ programa{
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 131; 
+ * @POSICAO-CURSOR = 719; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
