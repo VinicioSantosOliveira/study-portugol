@@ -24,8 +24,6 @@ programa{
 			
 			se (peso > maiorPeso){
 				maiorPeso = peso
-			}senao{
-				peso = maiorPeso
 			}	
 			escreva ("\n-------------------------------------")
 			escreva ("\n          DETECTOR DE PESADO         ")
@@ -39,7 +37,7 @@ programa{
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 606; 
+ * @POSICAO-CURSOR = 574; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {maiorPeso, 10, 10, 9}-{contador, 10, 25, 8}-{peso, 10, 35, 4}-{nome, 11, 9, 4};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
