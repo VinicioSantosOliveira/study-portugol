@@ -1,6 +1,6 @@
-programa{
-	//Sequência de Fibonacci
-	funcao inicio(){
+programa{
+	//Sequência de Fibonacci
+	funcao inicio(){
 
 		inteiro valor = 0, soma = 1, soma2 = 1, result
 

@@ -7,6 +7,7 @@ programa
 	funcao inicio(){
 		inteiro a, b, c, resultado
 		real x, radicando, exp, d, x1, x2
+		
 		escreva ("digite o valor de b: ")
 		leia (b)
 		escreva ("digite o valor de a: ")
@@ -31,7 +32,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 669; 
+ * @POSICAO-CURSOR = 672; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
