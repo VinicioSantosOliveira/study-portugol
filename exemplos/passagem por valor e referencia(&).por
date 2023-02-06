@@ -1,19 +1,20 @@
-programa{
+programa{
 	
 	funcao inicio(){
-	inteiro valor
-	
-		escreva ("digite um numero: ")
-		leia (valor)
-		parOuImpar (valor)
-	}
-	funcao parOuImpar (inteiro resultado){
+
+		inteiro idade = 35
+		caracter letra = 'A'
 		
-		se (resultado % 2 == 0){
-			escreva ("este valor é PAR")
-		}
-		senao
-			escreva ("este valor é IMPAR")
+		imprimir (idade, letra)
+
+		escreva ("idade: "+ idade +"\n")
+		escreva ("letra: "+ letra +"\n")
+	}
+	funcao imprimir (inteiro &i, caracter l){
+
+		escreva (i +"\t"+ l +"\n")
+		i = 50
+		l = 'W'
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -21,7 +22,7 @@ programa{
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 229; 
+ * @POSICAO-CURSOR = 278; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
