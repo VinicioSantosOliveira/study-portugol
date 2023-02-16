@@ -1,13 +1,12 @@
 programa
 {
 	
-	funcao inicio()
-	{
-	inteiro vetor [4], n
+	funcao inicio(){
+	inteiro vetor [10]
 
-	para (n = 0; n <= 3; n++){
-		escreva ("\n"+ vetor[n])
-	}
+		para (inteiro vetA = 0; vetA < 10; vetA++){
+			leia (vetor[vetA])
+		}
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -15,7 +14,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 125; 
+ * @POSICAO-CURSOR = 128; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
